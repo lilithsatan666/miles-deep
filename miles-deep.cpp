@@ -187,7 +187,7 @@ void PrintHelp()
     cout << endl;
     cout << "Cutting Options" << endl;
     cout << "-u\tMinimum cUt in seconds (default: 4)" << endl;
-    cout << "-g\tMax Gap (default: 2)- the largest section of non-target frames in a cut" << endl;
+    cout << "-g\tMax Gap (default: ul)- the largest section of non-target frames in a cut" << endl;
     cout << "-s\tMinimum Score (default: 0.5) - minimum value considered a match [0-1]" << endl;
     cout << "-v\tMinimum coVerage of target frames in a cut (default: 0.4) [0-1]" << endl;
     cout << "-c\tDon't Concatenate. Output cut directory (default: off)" << endl;
